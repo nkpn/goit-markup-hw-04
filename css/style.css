@@ -75,6 +75,7 @@ li{
 header{
   background: #FFFFFF;
   border-bottom: 2px solid #ECECEC;
+  padding: 32px 0;
 }
 
 header> .container{
@@ -123,7 +124,7 @@ header> .container{
 
 .site-nav .link{
   display: block;
-  padding: 32px 0;
+  padding: 0 auto;
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -145,7 +146,7 @@ header> .container{
 }
 
 .auth-nav .link{
-  padding: 32px 0px;
+  padding: auto 0;
 }
 
 .auth-nav .address-header:hover{
@@ -283,32 +284,29 @@ header> .container{
   margin-bottom: 94px;
 }
 
-.features-item::before{
+.features-item-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-icon{
+  width: 70px;
+  height: 70px;
+  fill: red;
+  background-size: contain;
+  outline: 1px solid red;
+}
+
+/*.features-item::before{
   display: block;
   content: "";
-  /*background-size: contain;*/
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;;
   height: 120px;
   margin-bottom:  30px;
-}
-
-.icon-sputnik::before{
-  background-image: url(../images/sputnik.svg);
-}
-
-.icon-clock::before{
-  background-image: url(../images/clock\ 1.svg);
-}
-
-.icon-diagram::before{
-  background-image: url(../images/diagram\ 1.svg);
-}
-
-.icon-austronaut::before{
-  background-image: url(../images/astronaut\ 1.svg);
-}
+}*/
 
 
 .features-list .features-item:not(:last-child){
