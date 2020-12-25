@@ -301,8 +301,6 @@ header> .container{
   margin: 25px 100px;
   background-size: contain;
   background-position: center;
-  
-  border: 1px solid red;
 }
 
 /*.features-item::before{
@@ -414,10 +412,11 @@ header> .container{
   display: inline-flex;
   flex-flow: row;
   justify-content: center;
+  align-items: center;
 }
 
 .master-links{
-  display: block;
+  display: flex;
   align-items: center;
   text-align: center;
   border: none;
@@ -435,6 +434,8 @@ header> .container{
 }
 
 .master-icon{
+  display: block;
+  margin: 16px;
   width: 20px;
   height: 20px;
   fill: currentColor;
