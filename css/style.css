@@ -284,18 +284,22 @@ header> .container{
   margin-bottom: 94px;
 }
 
-.features-item-container{
-  display: block;
+.features-icon-container{
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .features-icon{
+  display: block;
+  justify-content: center;
+  align-items: center;
   width: 70px;
   height: 70px;
-  fill: red;
   background-size: contain;
-  outline: 1px solid red;
+  background-position: center;
+  margin-bottom: 30px;
+  border: 1px solid red;
 }
 
 /*.features-item::before{
