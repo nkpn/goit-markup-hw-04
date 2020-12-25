@@ -288,17 +288,20 @@ header> .container{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .features-icon{
-  /*display: block;*/
-  justify-content: center;
-  align-items: center;
+  display: block;
   width: 70px;
   height: 70px;
+  margin: 25px 100px;
   background-size: contain;
   background-position: center;
-  margin-bottom: 30px;
+  
   border: 1px solid red;
 }
 
