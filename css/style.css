@@ -424,12 +424,14 @@ header> .container{
   height: 44px;
   padding: 0;
   border-radius: 50%;
-  background-color: #681f1f;
+  border: 1px solid red;
   margin-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .master-links:hover{
-  color:var(--blue-bg-color);
+  background-color:var(--blue-bg-color);
+  color: #ffffff;
   cursor: pointer;
 }
 
