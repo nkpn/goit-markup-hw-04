@@ -280,6 +280,7 @@ header> .container{
 
 .features-list .features-item{
   display: inline-block;
+  justify-content: space-around;
   margin-top: 90px;
   margin-bottom: 94px;
 }
@@ -624,4 +625,47 @@ header> .container{
   font-size: 18px;
   line-height: 2;
   font-weight: bold;
+}
+
+
+/* CUSTOMERS */
+
+.customers{
+  background-color: #ffffff;
+}
+
+.customers .h2-title{
+  padding-top: 94px;
+}
+
+.customers .customers-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.customers-item{
+  display: block;
+  justify-content: space-around;
+  
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.customers-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.customers-item-containter{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-icon{
+  width: 45px;
+  height: 50px;
 }
