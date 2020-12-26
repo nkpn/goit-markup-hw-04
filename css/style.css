@@ -645,7 +645,7 @@ header> .container{
 }
 
 .customers-item{
-  display: block;
+  display: flex;
   justify-content: space-around;
   
   border: 1px solid #AFB1B8;
@@ -666,6 +666,9 @@ header> .container{
 }
 
 .customers-icon{
+  display: block;
   width: 45px;
   height: 50px;
+  background-size: contain;
+  background-position: center;
 }
