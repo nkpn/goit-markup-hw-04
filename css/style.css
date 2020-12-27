@@ -415,6 +415,7 @@ header> .container{
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  padding-left: 0px;
 }
 
 .social-items:not(:last-child){
@@ -428,10 +429,8 @@ header> .container{
   border: none;
   width: 44px;
   height: 44px;
-  padding: 0;
   border-radius: 50%;
   fill: #AFB1B8;
-  /*background-color: #ffffff;*/
 }
 
 .master-links:focus,
