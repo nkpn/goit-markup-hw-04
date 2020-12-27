@@ -75,7 +75,7 @@ li{
 header{
   background: #FFFFFF;
   border-bottom: 2px solid #ECECEC;
-  padding: 32px 0;
+  padding: 25px 0;
 }
 
 header> .container{
@@ -132,7 +132,8 @@ header> .container{
   letter-spacing: 0.02em;
 }
 
-.site-nav .link a:hover{
+.site-nav .link a:hover,
+.site-nav .link a:focus{
   color: #2196F3;
   cursor: pointer;
 }
@@ -429,10 +430,15 @@ header> .container{
   background-color: #ffffff;
 }
 
+.master-links:focus,
 .master-links:hover{
   background-color:var(--blue-bg-color);
-  color: #ffffff;
   cursor: pointer;
+}
+
+.master-icon:hover,
+.master-icon:focus{
+  fill: #FFFFFF;
 }
 
 .master-icon{
@@ -448,19 +454,15 @@ header> .container{
 
 .footer{
   background: #2F303A;
+  padding: 60px 0;
 }
 
 .footer-item-1{
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
 .footer-item:not(:last-child){
   padding-bottom: 9px;
-}
-
-.footer-item:last-child{
-  padding-bottom: 60px;
 }
 
 .web-footer {
