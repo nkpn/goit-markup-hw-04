@@ -82,16 +82,7 @@ header> .container{
  background: #FFFFFF;
  display: flex;
  align-items: center;
- justify-content: space-between; *
-
-}
-
-.container{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0px auto;
-  
+ justify-content: space-between;
 }
 
 .main-nav{
@@ -204,7 +195,7 @@ header> .container{
 }
 
 
-/* H1 SECTION */
+/* H1 SECTION / HERO */
 
 .h1-section{
   text-align: center;
@@ -285,7 +276,8 @@ header> .container{
 }
 
 .container .features-list{
-  display: flex;
+  display: inline-flex;
+  /*height: calc((100% - 30px) / 4);*/
 
 }
 
@@ -307,9 +299,6 @@ header> .container{
 }
 
 .features-icon{
-  display: block;
-  width: 70px;
-  height: 70px;
   margin: 25px 100px;
   background-size: contain;
   background-position: center;
