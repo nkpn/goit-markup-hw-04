@@ -411,44 +411,42 @@ header> .container{
 }
 
 .social-list{
-  display: inline-flex;
-  flex-flow: row;
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.social-items:not(:last-child){
+  margin-right: 10px;
 }
 
 .master-links{
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   border: none;
   width: 44px;
   height: 44px;
   padding: 0;
   border-radius: 50%;
-  margin-bottom: 30px;
-  background-color: #ffffff;
+  fill: #AFB1B8;
+  /*background-color: #ffffff;*/
 }
 
 .master-links:focus,
 .master-links:hover{
   background-color:var(--blue-bg-color);
+  fill: #ffffff;
   cursor: pointer;
 }
 
-.master-icon:hover,
-.master-icon:focus{
-  fill: #FFFFFF;
-}
 
-.master-icon{
-  display: block;
-  margin: 16px;
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-  background-size: contain;
-}
+  .master-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* FOOTER */
 
