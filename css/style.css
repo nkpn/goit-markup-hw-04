@@ -464,6 +464,10 @@ header> .container{
   padding-left: 0;
 }
 
+.footer-list{
+  padding: 0 0;
+}
+
 .join-us{
   display: block;
   margin-bottom: 0px;
@@ -552,6 +556,7 @@ header> .container{
   flex-direction: row;
   justify-content: space-between;
   margin: 0;
+  padding: 0 0;
 }
 
 .customers-item{
