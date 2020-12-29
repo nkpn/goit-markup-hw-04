@@ -153,7 +153,8 @@ header> .container{
   padding: auto 0;
 }
 
-.auth-nav .address-header:hover{
+.auth-nav .address-header:hover,      
+.auth-nav .address-header:focus{
   color:var(--blue-bg-color);
 }
 
@@ -433,16 +434,15 @@ header> .container{
   fill: #AFB1B8;
 }
 
+
 .master-links:focus,
 .master-links:hover{
   background-color:var(--blue-bg-color);
   fill: #ffffff;
-  cursor: pointer;
 }
 
 
   .master-icon{
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -539,6 +539,7 @@ header> .container{
 
 .footer-links{
   background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
 }
 
 
@@ -546,11 +547,10 @@ header> .container{
 
 .customers{
   background-color: #ffffff;
-}
-
-.customers .h2-title{
+  padding-bottom: 94px;
   padding-top: 94px;
 }
+
 
 .customers .customers-list{
   display: flex;
@@ -572,7 +572,6 @@ header> .container{
   width: calc((100% - 30px) / 6);
   border-radius: 4px;
   margin-top: 50px;
-  margin-bottom: 94px;
 }
 
 .customers-item:focus,
@@ -598,8 +597,8 @@ header> .container{
 
 
 .customers-icon{
+
   fill: currentColor;
-  background-size: contain;
   background-position: center;
 }
 
