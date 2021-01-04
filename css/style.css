@@ -47,7 +47,7 @@ li{
 
  a:hover, address:hover
  li:focus, a:focus, address:focus{
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   text-decoration-color: #2196F3; 
 }
 
@@ -67,6 +67,11 @@ li{
 
 .site-nav{
   display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .site-nav .item:not(:last-child){
@@ -138,7 +143,6 @@ header> .container{
 .main-nav .link a:focus{
   color: #2196F3;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .site-nav .link.current{
@@ -156,6 +160,7 @@ header> .container{
 .auth-nav .address-header:hover,      
 .auth-nav .address-header:focus{
   color:var(--blue-bg-color);
+  fill: var(--blue-bg-color);
 }
 
 .address-header{
@@ -165,10 +170,10 @@ header> .container{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  fill: #757575;
 }
 
 .header-logo{
-  color: #757575;
   margin: 0;
   margin-right: 10px;
 }
@@ -645,7 +650,7 @@ header> .container{
 
 .button:hover, 
 .button:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -653,12 +658,11 @@ header> .container{
   padding-right: 8px;
 }
 
-.primary-button:hover{
+.primary-button:hover,
+.primary-button:focus{
   background-color: var(--blue-bg-color);
-}
-
-.primary-button a:hover{
-  color: #FFFFFF;
+  color:#ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Projects */
