@@ -58,9 +58,10 @@ li{
 
 
 .container{
-  width: 1170px;
-  margin: 0 auto;
-  padding: 215px auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
 }
 
 /* HEADER */
@@ -160,7 +161,7 @@ header> .container{
 .auth-nav .address-header:hover,      
 .auth-nav .address-header:focus{
   color:var(--blue-bg-color);
-  fill: var(--blue-bg-color);
+  fill:var(--blue-bg-color);
 }
 
 .address-header{
@@ -576,7 +577,7 @@ header> .container{
   box-sizing: border-box;
   width: calc((100% - 30px) / 6);
   border-radius: 4px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 .customers-item:focus,
@@ -618,6 +619,7 @@ header> .container{
   align-content: center;
   justify-content: center;
   flex-direction: row;
+  padding-bottom: 20px;
 }
 
 .list-buttons{
